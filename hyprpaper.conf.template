@@ -1,0 +1,12 @@
+preload = ${WALLPAPER_LOCATION}/left.jpg
+preload = ${WALLPAPER_LOCATION}/middle.jpg
+preload = ${WALLPAPER_LOCATION}/right.jpg
+
+# Left monitor
+wallpaper = HDMI-A-1,${WALLPAPER_LOCATION}/left.jpg
+
+# Center monitor
+wallpaper = DP-3,${WALLPAPER_LOCATION}/middle.jpg
+
+# Right monitor
+wallpaper = DP-2,${WALLPAPER_LOCATION}/right.jpg
