@@ -28,6 +28,8 @@ fi
 
 readonly LINK_DESTINATION="$HYPRPAPER_CONFIG_LOCATION/$FILE_NAME"
 
+rm $LINK_DESTINATION
+
 ln -s "$LINK_ORIGIN" "$LINK_DESTINATION"
 
 systemctl --user restart hyprpaper.service
