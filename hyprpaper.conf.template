@@ -2,6 +2,8 @@ preload = ${WALLPAPER_LOCATION}/left.jpg
 preload = ${WALLPAPER_LOCATION}/middle.jpg
 preload = ${WALLPAPER_LOCATION}/right.jpg
 
+splash = false
+
 # Left monitor
 wallpaper {
 	monitor = HDMI-A-1
