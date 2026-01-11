@@ -3,10 +3,22 @@ preload = ${WALLPAPER_LOCATION}/middle.jpg
 preload = ${WALLPAPER_LOCATION}/right.jpg
 
 # Left monitor
-wallpaper = HDMI-A-1,${WALLPAPER_LOCATION}/left.jpg
+wallpaper {
+	monitor = HDMI-A-1
+	path = ${WALLPAPER_LOCATION}/left.jpg
+	fit_mode = cover
+}
 
 # Center monitor
-wallpaper = DP-3,${WALLPAPER_LOCATION}/middle.jpg
+wallpaper {
+	monitor = DP-3
+	path = ${WALLPAPER_LOCATION}/middle.jpg
+	fit_mode = cover
+}
 
 # Right monitor
-wallpaper = DP-2,${WALLPAPER_LOCATION}/right.jpg
+wallpaper {
+	monitor = DP-2
+	path = ${WALLPAPER_LOCATION}/right.jpg
+	fit_mode = cover
+}
